@@ -105,8 +105,8 @@ mustLogin();
       interval: 3000,
       // 滚动方向，up、down、left、right，默认为"left" 当前只支持上下
       dir: 'up',
-      // 是否自动滚动，默认为true
-      autoPlay: true,
+      // 是否自动滚动，默认为false，可改为true
+      autoPlay: false,
       // 是否在鼠标滑过低级元素时暂停滚动，默认为true
       hoverPause: true
     });
